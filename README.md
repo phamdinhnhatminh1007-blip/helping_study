@@ -1,4 +1,4 @@
-# 🧠 BalanceBuddy AI — Local Edition
+# 🧠 Helping_study — Local Edition
 
 > Trợ lý AI giúp sinh viên lập kế hoạch học tập cân bằng. **Chạy 100% offline trên máy bạn**, không cần API key, không tốn phí.
 
