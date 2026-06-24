@@ -1,0 +1,18 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# Local LLM
+# NOTE: trên Windows nếu gặp lỗi "WinError 127" khi import llama_cpp,
+# cài Visual C++ Redistributable rồi cài lại bằng:
+#   pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+llama-cpp-python==0.3.2
+
+# File parsers
+python-docx==1.1.2          # DOCX
+pdfplumber==0.11.4          # PDF
+pytesseract==0.3.13         # Image OCR (cần Tesseract binary - xem README)
+Pillow==11.0.0
